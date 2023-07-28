@@ -1,0 +1,49 @@
+.titleServices {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #223B7C;
+    font-weight: 600;
+    font-size: 64px;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.containerServices {
+    display: grid;
+    justify-items: center;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin: auto;
+
+}
+
+.services {
+    display: flex;
+    width: 100%;
+}
+
+.containerTextServices {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleService {
+    font-family: 'Raleway', sans-serif;
+    color: #223B7C;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.parrafoServices {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    width: 80%;
+}
+
+.icono {
+    font-size: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,41 @@
+.containerAbout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+
+.containerImagenAbout {
+    margin: auto;
+    margin-right: 150px;
+}
+
+.containerTextAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 70%;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #a9dfff28;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textAbout {
+    font-family: 'Raleway', sans-serif;
+    color: #223B7C;
+    font-weight: 600;
+    font-size: 32px;
+    width: 75%;
+}
+
+.parrafoAbout {
+    width: 75%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+}

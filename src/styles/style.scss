@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bpw-bot-avatar {
+    background-color: green;
+}
+
+
+.bpw-floating-button {
+    background-image: url(../../img/logo-principal.png);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Ubuntu&display=swap');
+@import './layout/navbar';
+@import './layout/footer';
+@import './sections/principal';
+@import './sections/services';
+@import './sections/about';
+@import './sections/planes';
+@import './sections/contactanos';
+@import './bases/mediaQuerysLaptop';

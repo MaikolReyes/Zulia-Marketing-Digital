@@ -1,0 +1,58 @@
+.containerHero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+}
+
+.containerHeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroPrincipal {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.titleHero {
+    font-family: 'Raleway', sans-serif;
+    color: #223B7C;
+    font-weight: 600;
+    font-size: 64px;
+    margin-top: 100px;
+    width: 800px;
+}
+
+.parrafoHero {
+    width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #5F5F5F;
+    margin-top: 10px;
+    width: 800px;
+}
+
+.buttonHero {
+    width: 200px;
+    height: 60px;
+    background-color: #4A3BD4;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.containerIntroServices {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
