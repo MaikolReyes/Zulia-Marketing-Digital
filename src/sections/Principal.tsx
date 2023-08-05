@@ -19,24 +19,6 @@ export const Principal = () => {
                 </div>
                 <img src={hero} alt="" className='heroPrincipal' />
             </div>
-
-
-            {/* <div className='containerIntroServices'>
-
-                <button className='btn btn-primary'>Marketing con AI</button>
-                <button className='btn btn-primary'>Chatbots con AI</button>
-                <button className='btn btn-primary'>Desarrollo Web</button>
-                <button className='btn btn-primary'>Email Marketing</button>
-
-            </div>
-
-            <div>
-                <img src="" alt="" />
-                <div className='card mx-auto w-50'>
-                    <h3>Marketing con AI</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, aspernatur esse aperiam aliquam soluta repellat impedit laborum quas, praesentium odit placeat at, animi quisquam! Quos modi ex quisquam eum provident?</p>
-                </div>
-            </div> */}
         </>
     )
 }

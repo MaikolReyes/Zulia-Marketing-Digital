@@ -1,3 +1,4 @@
+
 export const Contacto = () => {
 
     // const sendForm = () => {
@@ -20,15 +21,15 @@ export const Contacto = () => {
                         <h3 className="titleContactanos">Contacto</h3>
                         <form action="#">
                             <p>
-                                <label>Nombre</label>
+                                <label className="labelForm">Nombre</label>
                                 <input required type="text" name="nombre-completo" id="name" />
                             </p>
                             <p>
-                                <label>Correo Electrónico</label>
+                                <label className="labelForm">Correo Electrónico</label>
                                 <input required type="email" name="email" id="email" />
                             </p>
                             <p className="block">
-                                <label  >Mensaje</label>
+                                <label className="labelForm">Mensaje</label>
                                 <textarea required name="mensajes" id="mensajes" cols={cols} rows={rows}></textarea>
                             </p>
                             <p className="block" >
@@ -40,13 +41,10 @@ export const Contacto = () => {
                     </div>
 
                     <div className="contact-info">
+                        <a className="location card"><i className="fa-solid fa-location-dot iconForm"></i>Villa Devoto</a>
+                        <a className="location card"><i className="fa-solid fa-phone iconForm"></i>+58 1123901746</a>
+                        <a className="location card"><i className="fa-solid fa-envelope iconForm"></i>Zuliamarketingdigital@gmail.com</a>
 
-                        <a className="location card"><i className="fa-solid fa-location-dot"></i>Villa Devoto</a>
-                        <a className="location card"><i className="fa-solid fa-phone"></i>+58 1123901746</a>
-                        <a className="location card"><i className="fa-solid fa-envelope"></i>Minzke.ar@gmail.com</a>
-
-
-                        <p>Zulia Markeging Digital</p>
                     </div>
                 </div>
             </div>

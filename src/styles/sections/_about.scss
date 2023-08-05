@@ -2,40 +2,52 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 200px;
+    justify-items: center;
 }
 
 .containerImagenAbout {
     margin: auto;
     margin-right: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .containerTextAbout {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     width: 70%;
     padding: 50px;
     border-radius: 15px;
-    background-color: #a9dfff28;
+    // background-color: #a9dfff28;
 }
 
 .about {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconoAbout {
+    font-size: 60px;
+    color: #5448c7;
+    width: 60px;
+    margin-bottom: 20px;
 }
 
 .textAbout {
     font-family: 'Raleway', sans-serif;
     color: #223B7C;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     width: 75%;
 }
 
 .parrafoAbout {
     width: 75%;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #5F5F5F;
 }

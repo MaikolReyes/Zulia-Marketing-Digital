@@ -1,25 +1,164 @@
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1440px) {
     .nav-link {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .navbar {
-        height: 70px;
+        height: 60px;
+    }
+
+    .logo {
+        width: 150px;
     }
 
     .heroPrincipal {
-        margin-top: 70px;
-        width: 100%;
+        margin-top: 60px;
     }
 
     .titleHero {
-        font-size: 48px;
-        margin-left: 70px;
-        margin-top: 200px;
+        font-size: 38px;
+        width: 70%;
+        margin-top: 100px;
     }
 
     .parrafoHero {
-        font-size: 18px;
+        font-size: 16px;
         width: 70%;
+    }
+
+    .buttonHero {
+        margin-top: 0px;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .titleServices {
+        font-size: 48px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .titleService {
+        font-size: 22px;
+    }
+
+    .parrafoServices {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .icono {
+        font-size: 30px;
+    }
+
+    .containerAbout {
+        margin-top: 100px;
+        justify-items: center;
+    }
+
+    .imagenAbout {
+        width: 90%;
+    }
+
+    .parrafoAbout {
+        width: 100%;
+    }
+
+    .iconoAbout {
+        font-size: 30px;
+    }
+
+    .textAbout {
+        font-size: 22px;
+    }
+
+    .parrafoAbout {
+        font-size: 14px;
+    }
+
+    .containerImagenAbout {
+        margin-right: 0px
+    }
+
+    .titlePlanes {
+        font-size: 36px;
+        margin-top: 150px;
+    }
+
+    .planes {
+        width: 320px;
+        height: 550px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .iconPlanes {
+        font-size: 40px;
+    }
+
+    .iconCheck {
+        font-size: 14px;
+    }
+
+    .textCheck {
+        font-size: 14px;
+    }
+
+    .buttonPlanes {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 40px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 30px;
+        height: 40px;
+    }
+
+    .titleContactanos {
+        font-size: 32px;
+    }
+
+    .content {
+        width: 70vw;
+    }
+
+    .labelForm {
+        font-size: 16px;
+    }
+
+    .location {
+        font-size: 14px;
+        height: 80px;
+    }
+
+    .iconForm {
+        font-size: 20px;
+    }
+
+    .newsLetter {
+        height: 80px;
+    }
+
+    .textNewsLetter {
+        font-size: 18px;
+    }
+
+    .inputForm {
+        width: 250px;
+        height: 35px;
+    }
+
+    .buttonEnviar {
+        font-size: 16px;
+        height: 35px;
     }
 }

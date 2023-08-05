@@ -14,32 +14,36 @@ export const Planes = () => {
                         <div className="containerPlanes">
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-store"></i>
+                                </div>
                                 <h5 className="card-title">E-commerce</h5>
-                                <p className="mx-auto">Vende tus productos en linea</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 5 Secciones</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Hasta 3 categorias</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Hasta 8 productos</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Integracion con plataformas de pago</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Notificacion de ventas via mail</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Links a Redes Sociales</li>
+                                    {/* <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Links a Redes Sociales</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Diseno Responsive</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mantenimiento Mensual (NO INCLUIDO)</li>
+                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mantenimiento Mensual (NO INCLUIDO)</li> */}
                                 </ul>
                                 <a href="https://wa.me/message/X65MZULZJUFYL1" target="_blank" className="btn buttonPlanes">Contratar Servicio</a>
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-user-tie"></i>
+                                </div>
                                 <h5 className="card-title">Web Corporativa</h5>
-                                <p className="mx-auto">La mejor opcion para su empresa</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 5 Secciones</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Slider</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Formulario</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Hasta 10 imagenes</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Links a Redes sociales</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Diseno Responsive</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mantenimiento Mensual (NO INCLUIDO)</li>
+                                    {/* <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Diseno Responsive</li>
+                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mantenimiento Mensual (NO INCLUIDO)</li> */}
 
 
                                 </ul>
@@ -48,16 +52,18 @@ export const Planes = () => {
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-bullhorn"></i>
+                                </div>
                                 <h5 className="card-title">Landing Page</h5>
-                                <p className="mx-auto">Ideal para campanas publicitarias</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Seccion</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Slider</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Formulario</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Hasta 8 imagenes</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Links a Redes sociales</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Diseno Responsive</li>
-                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Sin necesidad de mantenimiento</li>
+                                    {/* <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Diseno Responsive</li>
+                                    <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Sin necesidad de mantenimiento</li> */}
                                 </ul>
                                 <a href="https://wa.me/message/X65MZULZJUFYL1" target="_blank" className="btn buttonPlanes">Contratar Servicio</a>
 
@@ -70,6 +76,9 @@ export const Planes = () => {
 
                         <div className="containerPlanes">
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="bi bi-robot"></i>
+                                </div>
                                 <h5 className="card-title">ChatBots con IA</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Disponibilidad 24/7</li>
@@ -83,6 +92,9 @@ export const Planes = () => {
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-square-envelope"></i>
+                                </div>
                                 <h5 className="card-title">Email Marketing con IA</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Maximiza tu alcance</li>
@@ -96,6 +108,9 @@ export const Planes = () => {
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-rocket"></i>
+                                </div>
                                 <h5 className="card-title">Plan de Marketing con IA</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Estrategias Personalizadas</li>
@@ -116,6 +131,9 @@ export const Planes = () => {
                         <div className="containerPlanes">
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-solid fa-clipboard-list"></i>
+                                </div>
                                 <h5 className="card-title">Estrategia de Contenidos</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Estrategias a medida</li>
@@ -129,6 +147,7 @@ export const Planes = () => {
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes"><i className="fa-brands fa-meta"></i></div>
                                 <h5 className="card-title">Publicidad en Meta ADS</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mayor retorno de inversión (ROI)</li>
@@ -142,6 +161,9 @@ export const Planes = () => {
                             </div>
 
                             <div className="card planes">
+                                <div className="iconPlanes">
+                                    <i className="fa-brands fa-google-plus-g"></i>
+                                </div>
                                 <h5 className="card-title">Publicidad en Google ADS</h5>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Alcance masivo</li>
