@@ -19,12 +19,14 @@
     justify-content: end;
 }
 
+.container-fluid {
+    align-items: flex-start;
+}
+
 .navbar-nav {
     margin-right: 50px;
     gap: 20px;
 }
-
-
 
 .nav-link {
     font-family: 'Raleway', sans-serif;

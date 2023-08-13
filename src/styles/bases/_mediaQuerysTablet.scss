@@ -1,19 +1,40 @@
 @media screen and (max-width:820px) {
 
     .logo {
-        width: 120px;
-    }
-
-    .container-fluid {
-        height: 20px;
+        width: 60px;
+        height: 40px;
     }
 
     .navbar {
-        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0px;
+    }
+
+    .navbar-collapse {
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-fluid {
+        padding: 0px;
+        height: 50px;
     }
 
     .titleHero {
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 100px;
     }
 
@@ -21,16 +42,36 @@
         font-size: 12px;
     }
 
+    .buttonHero {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .icon-image {
+        margin-bottom: 5px;
+    }
+
+    .titleServices {
+        margin-top: 80px;
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+
     .titleService {
         font-size: 18px;
     }
 
     .parrafoServices {
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .icono {
+        font-size: 20px;
     }
 
     .containerServices {
-        gap: 70px;
+        gap: 50px;
     }
 
     .services {
@@ -38,5 +79,87 @@
         justify-content: center;
     }
 
+    .containerAbout {
+        margin-top: 60px;
+    }
 
+    .containerTextAbout {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .textAbout {
+        font-size: 18px;
+    }
+
+    .parrafoAbout {
+        font-size: 12px;
+    }
+
+    .containerPlanes {
+        gap: 20px;
+    }
+
+    .titlePlanes {
+        font-size: 28px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .iconPlanes {
+        font-size: 30px;
+    }
+
+    .planes {
+        width: 200px;
+        height: 400px;
+    }
+
+    .card-title {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .checkList {
+        gap: 10px;
+    }
+
+    .textCheck {
+        font-size: 12px;
+    }
+
+    .carousel-control-next {
+        width: 10%;
+    }
+
+    .carousel-control-prev {
+        width: 10%;
+    }
+
+    .content {
+        margin-top: 120px;
+        width: 80vw;
+        margin-bottom: 100px;
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 2fr 0fr;
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .titleContactanos {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .labelForm {
+        font-size: 14px;
+    }
+
+    .textNewsLetter {
+        font-size: 14px;
+    }
 }

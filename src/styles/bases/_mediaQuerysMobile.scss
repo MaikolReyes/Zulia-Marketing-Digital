@@ -1,0 +1,48 @@
+@media screen and (max-width:420px) {
+
+    .containerHero {
+        grid-template-columns: 2fr 0fr;
+    }
+
+    .heroPrincipal {
+        position: absolute;
+        filter: brightness(0.3);
+    }
+
+    .containerHeroText {
+        z-index: 1;
+    }
+
+    .containerServices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleHero {
+        margin-top: 120px;
+        color: #5f84e4;
+    }
+
+    .parrafoHero {
+        color: white;
+        margin-top: 0px;
+    }
+
+    .services {
+        text-align: center;
+    }
+
+    .iconImage {
+        margin: auto;
+    }
+
+    .containerAbout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerPlanes {
+        flex-wrap: wrap;
+    }
+
+}
