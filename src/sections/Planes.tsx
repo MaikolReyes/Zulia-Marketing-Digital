@@ -17,7 +17,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-store"></i>
                                 </div>
-                                <h5 className="card-title">E-commerce</h5>
+                                <p className="card-title">Ecommerce</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 5 Secciones</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Hasta 3 categorias</li>
@@ -35,7 +35,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-user-tie"></i>
                                 </div>
-                                <h5 className="card-title">Web Corporativa</h5>
+                                <p className="card-title">Web Corporativa</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 5 Secciones</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Slider</li>
@@ -55,7 +55,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-bullhorn"></i>
                                 </div>
-                                <h5 className="card-title">Landing Page</h5>
+                                <p className="card-title">Landing Page</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Seccion</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> 1 Slider</li>
@@ -79,7 +79,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="bi bi-robot"></i>
                                 </div>
-                                <h5 className="card-title">ChatBots con IA</h5>
+                                <p className="card-title">ChatBots con IA</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Disponibilidad 24/7</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Escalabilidad</li>
@@ -95,7 +95,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-square-envelope"></i>
                                 </div>
-                                <h5 className="card-title">Email Marketing con IA</h5>
+                                <p className="card-title">Email Marketing con IA</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Maximiza tu alcance</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Aumenta la tasa de conversión</li>
@@ -111,7 +111,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-rocket"></i>
                                 </div>
-                                <h5 className="card-title">Plan de Marketing con IA</h5>
+                                <p className="card-title">Plan de Marketing con IA</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Estrategias Personalizadas</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Análisis de datos</li>
@@ -134,7 +134,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-clipboard-list"></i>
                                 </div>
-                                <h5 className="card-title">Estrategia de Contenidos</h5>
+                                <p className="card-title">Estrategia de Contenidos</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Estrategias a medida</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Posicionamiento SEO</li>
@@ -148,7 +148,7 @@ export const Planes = () => {
 
                             <div className="card planes">
                                 <div className="iconPlanes"><i className="fa-brands fa-meta"></i></div>
-                                <h5 className="card-title">Publicidad en Meta ADS</h5>
+                                <p className="card-title">Publicidad en Meta ADS</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Mayor retorno de inversión (ROI)</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Seguimiento y análisis detallado</li>
@@ -164,7 +164,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-brands fa-google-plus-g"></i>
                                 </div>
-                                <h5 className="card-title">Publicidad en Google ADS</h5>
+                                <p className="card-title">Publicidad en Google ADS</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Alcance masivo</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Segmentación precisa</li>

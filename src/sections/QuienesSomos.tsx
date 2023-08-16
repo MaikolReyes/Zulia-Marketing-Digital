@@ -1,11 +1,11 @@
-import AboutPhoto from '../img/about-2.png'
+import AboutPhoto from '../img/imagen-nosotros.webp'
 
 export const QuienesSomos = () => {
     return (
         <div className='containerAbout' id='nosotros'>
 
             <div className='containerImagenAbout'>
-                <img src={AboutPhoto} alt="" className='imagenAbout' />
+                <img src={AboutPhoto} alt="Imagen sobre nosotros" className='imagenAbout' />
             </div>
 
             <div className='containerTextAbout'>

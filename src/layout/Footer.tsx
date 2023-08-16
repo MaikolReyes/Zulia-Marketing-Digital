@@ -1,77 +1,55 @@
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import logo from '../img/logo-principal.png'
-
+import logo from '../img/logo-zulia.webp'
 
 export const Footer = () => {
 
-
     return (
         <>
-
             <div className='newsLetter'>
-
-                <form action='' className='formNewsLetter'>
-
+                <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" >
                     <div className='containerInput'>
-                        <label className='textNewsLetter p-3'>
-                            ¡Newsletter para no perderte nuestras ofertas!
-                        </label>
-                        <input type="email" placeholder='  Ingresa tu email' className='inputForm' />
-                        <button className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
+                        <div>
+                            <label className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</label>
+                            <input className='inputFormNewsLetter' type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
+                        </div>
+                        <div>
+                            <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
+                            <input type="hidden" name="_captcha" value='false' />
+                        </div>
                     </div>
                 </form >
+            </div >
+
+            <div className='containerFooter'>
+
+                <img src={logo} alt="Logo de la empresa Zulia" className='logoFooter' />
+
+                <div className="footer-link">
+                    <a href="#inicio" className="footer-item">Inicio</a>
+                    <a href="#servicios" className="footer-item">Servicios</a>
+                    <a href="#nosotros" className="footer-item">Nosotros</a>
+                    <a href="#precios" className="footer-item">Precios</a>
+                    <a href="#contacto" className="footer-item">Contacto</a>
+                </div>
+
+                <div className='containerIconRedes'>
+                    <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a facebook' className='icon-redes'>
+                        <i className="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a Instagram' className='icon-redes'>
+                        <i className="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a Linkedin' className='icon-redes'>
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
 
             </div >
 
+            <div className='containerCopyright' >
+                <p className='textCopyright'>© 2023 Copyright Zulia Marketing Digital</p>
+            </div>
 
-            <section className=''>
-                <MDBContainer className='text-center text-md-start mt-5'>
-                    <MDBRow className='mt-3'>
-                        <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>
-                                <img src={logo} alt="" className='logo' />
-                            </h6>
-                        </MDBCol>
-
-                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <ul className='containerSections'>
-                                <h6 className='text-uppercase  fw-bold'>secciones</h6>
-                                <li><a className='footer-link' href="">Inicio</a></li>
-                                <li><a className='footer-link' href="">Servicios</a></li>
-                                <li><a className='footer-link' href="">Nosotros</a></li>
-                                <li><a className='footer-link' href="">Precios</a></li>
-                                <li><a className='footer-link' href="">Contacto</a></li>
-                            </ul>
-                        </MDBCol>
-
-
-                        <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4 d-flex flex-column'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Redes Sociales</h6>
-                            <a href='' className='me-4 text-reset'>
-                                <MDBIcon fab icon="facebook-f" />
-                            </a>
-                            <a href='' className='me-4 text-reset'>
-                                <MDBIcon fab icon="twitter" />
-                            </a>
-                            <a href='' className='me-4 text-reset'>
-                                <MDBIcon fab icon="google" />
-                            </a>
-                            <a href='' className='me-4 text-reset'>
-                                <MDBIcon fab icon="instagram" />
-                            </a>
-                            <a href='' className='me-4 text-reset'>
-                                <MDBIcon fab icon="linkedin" />
-                            </a>
-                        </MDBCol>
-                    </MDBRow>
-                </MDBContainer>
-            </section>
-
-            <MDBFooter className='text-center text-lg-left containerCopyright'>
-                <div className='text-center p-3' style={{ backgroundColor: '' }}>
-                    &copy; {new Date().getFullYear()} Copyright:{' Zulia Marketing Digital'}
-                </div>
-            </MDBFooter>
         </>
     );
 }

@@ -1,8 +1,3 @@
-.footer {
-    height: 500px;
-    width: 100%;
-}
-
 .newsLetter {
     height: 100px;
     width: 100%;
@@ -18,19 +13,21 @@
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 20px;
 }
-
 
 .containerInput {
     display: flex;
     align-items: center;
 }
 
-.inputForm {
+.inputFormNewsLetter {
     height: 40px;
     width: 400px;
     border-radius: 10px;
-    border: 1px solid #8a67ff;
+    border: 1px solid #8d8d8d;
+    text-align: center;
+
 }
 
 .buttonEnviar {
@@ -44,46 +41,65 @@
     }
 }
 
-.footerContainer {
-    width: 100%;
-    height: 300px;
+.containerFooter {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #f5f5f5;
+    margin: 20px 0 30px;
+    gap: 20px;
 }
 
-.containerRedes {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #4A3BD4;
-}
-
-.fa-square-instagram {
-    color: #e8539b;
-}
 
 .logoFooter {
     width: 200px;
+    height: auto;
 }
 
-.containerCopyright {
-    background-color: #eaeaea;
-    color: black;
-}
-
-.containerSections {
-    list-style: none;
+.containerIconRedes {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+
+.icon-redes {
+    font-size: 30px;
+    color: #223B7C;
+
+    &:hover {
+        color: #4a66ad;
+    }
 }
 
 .footer-link {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-item {
     text-decoration: none;
-    color: black;
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5F5F5F;
+
+    &:hover {
+        color: #5448c7;
+    }
+}
+
+.containerCopyright {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textCopyright {
+    color: #5F5F5F;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
