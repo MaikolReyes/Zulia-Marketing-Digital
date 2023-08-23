@@ -77,7 +77,7 @@ export const Planes = () => {
                         <div className="containerPlanes">
                             <div className="card planes">
                                 <div className="iconPlanes">
-                                    <i className="bi bi-robot"></i>
+                                    <i className="fa-solid fa-robot"></i>
                                 </div>
                                 <p className="card-title">ChatBots con IA</p>
                                 <ul className="checkList">

@@ -6,16 +6,12 @@ export const Footer = () => {
         <>
             <div className='newsLetter'>
                 <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" >
+                    <p className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</p>
                     <div className='containerInput'>
-                        <div>
-                            <label className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</label>
-                            <input className='inputFormNewsLetter' type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
-                        </div>
-                        <div>
-                            <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
-                            <input type="hidden" name="_captcha" value='false' />
-                        </div>
+                        <input className='inputFormNewsLetter' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
+                        <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
+                        <input type="hidden" name="_captcha" value='false' />
                     </div>
                 </form >
             </div >
@@ -25,7 +21,6 @@ export const Footer = () => {
                 <img src={logo} alt="Logo de la empresa Zulia" className='logoFooter' />
 
                 <div className="footer-link">
-                    <a href="#inicio" className="footer-item">Inicio</a>
                     <a href="#servicios" className="footer-item">Servicios</a>
                     <a href="#nosotros" className="footer-item">Nosotros</a>
                     <a href="#precios" className="footer-item">Precios</a>

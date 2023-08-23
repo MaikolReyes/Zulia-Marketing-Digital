@@ -4,12 +4,12 @@
         width: 100px;
     }
 
-    .navbar {
-        align-items: flex-start;
-    }
-
     .navbar-toggler {
         margin-right: 15px;
+    }
+
+    .navbar {
+        height: auto;
     }
 
     .navbar-nav {
@@ -20,7 +20,6 @@
     }
 
     .navbar-collapse {
-        flex-wrap: wrap;
         justify-content: center;
         background-color: white;
         text-align: center;
@@ -29,8 +28,6 @@
 
     .container-fluid {
         padding: 0px;
-        height: 50px;
-        flex-wrap: nowrap;
     }
 
     .titleHero {
@@ -63,7 +60,7 @@
     }
 
     .parrafoServices {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .icono {
@@ -156,11 +153,12 @@
     }
 
     .labelForm {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .textNewsLetter {
         font-size: 14px;
+
     }
 
     .containerSections {
@@ -168,7 +166,19 @@
         gap: 20px;
     }
 
-    .containerIconRedes {
-        flex-direction: column;
+    .newsLetter {
+        padding: 1em;
+    }
+
+    .content {
+        padding: 1em;
+    }
+
+    .footer-link {
+        gap: 20px;
+    }
+
+    .footer-item {
+        font-size: 16px;
     }
 }

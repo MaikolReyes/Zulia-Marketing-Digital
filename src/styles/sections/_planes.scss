@@ -35,9 +35,9 @@
     height: 700px;
 
     &:hover {
-        transition: 1s;
+        transition: 0.8s;
+        background: linear-gradient(#5043c6, #4444ed);
         color: white;
-        background: linear-gradient(#5043c6, #4444ed)
     }
 }
 
