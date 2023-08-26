@@ -10,7 +10,7 @@ export const Footer = () => {
                     <div className='containerInput'>
                         <input className='inputFormNewsLetter' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
                         <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5173/" />
+                        <input type="hidden" name="_next" value="https://zuliamarketingdigital.com/" />
                         <input type="hidden" name="_captcha" value='false' />
                     </div>
                 </form >
@@ -28,13 +28,13 @@ export const Footer = () => {
                 </div>
 
                 <div className='containerIconRedes'>
-                    <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a facebook' className='icon-redes'>
+                    <a href='https://www.facebook.com/profile.php?id=61550461065145' target='_blank' aria-label='Ingresar a facebook' className='icon-redes'>
                         <i className="fa-brands fa-facebook"></i>
                     </a>
                     <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a Instagram' className='icon-redes'>
                         <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href='https://www.instagram.com/zuliamarketingdigital/' target='_blank' aria-label='Ingresar a Linkedin' className='icon-redes'>
+                    <a href='https://www.linkedin.com/company/zulia-marketing-digital/?viewAsMember=true' target='_blank' aria-label='Ingresar a Linkedin' className='icon-redes'>
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
