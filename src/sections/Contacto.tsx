@@ -15,7 +15,7 @@ export const Contacto = () => {
 
     return (
         <>
-            <div className="content" id="contacto">
+            <div className="content" id="contacto" data-aos="fade-right" data-aos-duration="2000">
                 <div className="contact-wrapper">
                     <div className="contact-form">
                         <h3 className="titleContactanos">Contacto</h3>

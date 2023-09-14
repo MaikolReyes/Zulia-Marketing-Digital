@@ -4,13 +4,13 @@ export const QuienesSomos = () => {
     return (
         <div className='containerAbout' id='nosotros'>
 
-            <div className='containerImagenAbout'>
+            <div className='containerImagenAbout' data-aos="fade-up" data-aos-duration='1000'>
                 <img src={AboutPhoto} alt="Imagen sobre nosotros" className='imagenAbout' />
             </div>
 
             <div className='containerTextAbout'>
 
-                <div className='about'>
+                <div className='about' data-aos="zoom-in-up">
                     <div>
                         <i className="fa-solid fa-chart-line iconoAbout"></i>
                     </div>
@@ -21,7 +21,7 @@ export const QuienesSomos = () => {
 
                 </div>
 
-                <div className='about'>
+                <div className='about' data-aos="zoom-in-up">
                     <div>
                         <i className="fa-solid fa-shop iconoAbout"></i>
                     </div>
@@ -32,7 +32,7 @@ export const QuienesSomos = () => {
 
                 </div>
 
-                <div className='about'>
+                <div className='about' data-aos="zoom-in-up">
                     <div>
                         <i className="fa-solid fa-lightbulb iconoAbout"></i>
                     </div>

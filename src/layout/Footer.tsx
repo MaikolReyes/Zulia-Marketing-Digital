@@ -4,7 +4,7 @@ export const Footer = () => {
 
     return (
         <>
-            <div className='newsLetter'>
+            <div className='newsLetter' data-aos="fade-up">
                 <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" >
                     <p className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</p>
                     <div className='containerInput'>
@@ -16,7 +16,7 @@ export const Footer = () => {
                 </form >
             </div >
 
-            <div className='containerFooter'>
+            <div className='containerFooter' data-aos="fade-up">
 
                 <img src={logo} alt="Logo de la empresa Zulia" className='logoFooter' />
 

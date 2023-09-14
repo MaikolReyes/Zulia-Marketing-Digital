@@ -2,10 +2,11 @@
 export const Planes = () => {
     return (
         <>
-            <h2 className="titlePlanes" id="precios">Nuestros Servicios</h2>
+            <div data-aos='fade-up'>
+                <h2 className="titlePlanes" id="precios">Nuestros Servicios</h2>
+            </div>
 
             <div id="carouselExampleIndicators" className="carousel slide mt-5">
-
 
                 <div className="carousel-inner">
 
@@ -13,7 +14,8 @@ export const Planes = () => {
 
                         <div className="containerPlanes">
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-store"></i>
                                 </div>
@@ -31,7 +33,8 @@ export const Planes = () => {
                                 <a href="https://wa.me/message/X65MZULZJUFYL1" target="_blank" className="btn buttonPlanes">Contratar Servicio</a>
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-user-tie"></i>
                                 </div>
@@ -51,7 +54,8 @@ export const Planes = () => {
 
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-bullhorn"></i>
                                 </div>
@@ -91,7 +95,8 @@ export const Planes = () => {
 
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-square-envelope"></i>
                                 </div>
@@ -107,7 +112,8 @@ export const Planes = () => {
 
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-rocket"></i>
                                 </div>
@@ -130,7 +136,8 @@ export const Planes = () => {
 
                         <div className="containerPlanes">
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-clipboard-list"></i>
                                 </div>
@@ -146,7 +153,8 @@ export const Planes = () => {
 
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes"><i className="fa-brands fa-meta"></i></div>
                                 <p className="card-title">Publicidad en Meta ADS</p>
                                 <ul className="checkList">
@@ -160,7 +168,8 @@ export const Planes = () => {
 
                             </div>
 
-                            <div className="card planes">
+                            <div className="card planes"
+                                data-aos="zoom-in-up">
                                 <div className="iconPlanes">
                                     <i className="fa-brands fa-google-plus-g"></i>
                                 </div>

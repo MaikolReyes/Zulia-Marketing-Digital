@@ -2,9 +2,11 @@
 export const Servicios = () => {
     return (
         <>
-            <h2 className='titleServices' id="servicios">¿Qué Ofrecemos?</h2>
+            <div data-aos="fade-up">
+                <h2 className='titleServices' id="servicios" >¿Qué Ofrecemos?</h2>
+            </div>
 
-            <div className="containerServices">
+            <div className="containerServices" data-aos="fade-up" data-aos-duration="500">
 
                 <div className="services">
                     <p className="icon-image">
