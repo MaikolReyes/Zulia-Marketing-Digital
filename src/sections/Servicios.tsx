@@ -13,7 +13,7 @@ export const Servicios = () => {
                         <i className="fa-solid fa-square-poll-vertical icono"></i>
                     </p>
                     <div className="containerTextServices" >
-                        <h3 className="titleService">Marketing Digital con IA</h3>
+                        <h3 className="titleService">Plan de Marketing Digital</h3>
                         <p className="parrafoServices">Imagina tener a tu disposición una solución de marketing totalmente automatizada y optimizada. Con nuestra potente IA, analizamos datos y métricas en tiempo real para identificar oportunidades ocultas y personalizar cada aspecto de tu estrategia.
                         </p>
                         {/* Desde el target de audiencia hasta la optimización de anuncios, cada paso se perfecciona para obtener los mejores resultados. */}
@@ -37,7 +37,7 @@ export const Servicios = () => {
                     </p>
 
                     <div className="containerTextServices" >
-                        <h3 className="titleService">ChatBots con IA</h3>
+                        <h3 className="titleService">Chatbots con IA</h3>
                         <p className="parrafoServices">Imagina tener un asistente virtual inteligente y disponible las 24 horas del día, los 7 días de la semana. Nuestros chatbots con IA no solo responden preguntas de manera instantánea, sino que también ofrecen una experiencia personalizada y contextual.</p>
                         {/* Utilizando algoritmos de aprendizaje automático, nuestros chatbots se adaptan a cada interacción, comprendiendo y anticipando las necesidades de tus clientes. */}
                     </div>
@@ -60,7 +60,7 @@ export const Servicios = () => {
                     </p>
 
                     <div className="containerTextServices" >
-                        <h3 className="titleService">Email Marketing con IA</h3>
+                        <h3 className="titleService">Email Marketing</h3>
                         <p className="parrafoServices">Imagina tener un enfoque personalizado y altamente efectivo para tus campañas de email. Con nuestra IA avanzada, optimizamos cada aspecto de tus mensajes, desde la segmentación de audiencia hasta la personalización del contenido.</p>
                         {/* Permitiéndonos entregar mensajes relevantes y persuasivos que generan resultados sorprendentes. */}
                     </div>

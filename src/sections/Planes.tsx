@@ -100,7 +100,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-square-envelope"></i>
                                 </div>
-                                <p className="card-title">Email Marketing con IA</p>
+                                <p className="card-title">Email Marketing</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Maximiza tu alcance</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Aumenta la tasa de conversión</li>
@@ -117,7 +117,7 @@ export const Planes = () => {
                                 <div className="iconPlanes">
                                     <i className="fa-solid fa-rocket"></i>
                                 </div>
-                                <p className="card-title">Plan de Marketing con IA</p>
+                                <p className="card-title">Plan de Marketing</p>
                                 <ul className="checkList">
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Estrategias Personalizadas</li>
                                     <li className="textCheck"><i className="fa-solid fa-check iconCheck"></i> Análisis de datos</li>
