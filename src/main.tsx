@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Servicios />
     <QuienesSomos />
     <Planes />
+    {/* <Projects /> */}
     <Contacto />
     <Footer />
   </React.StrictMode>,

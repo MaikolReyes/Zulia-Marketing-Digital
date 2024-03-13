@@ -16,21 +16,21 @@
 }
 
 .titleHero {
-    font-family: 'Raleway', sans-serif;
-    color: #223B7C;
+    font-family: 'League Spartan', sans-serif;
+    color: #7869FF;
     font-weight: 600;
     font-size: 58px;
     margin-top: 100px;
-    width: 700px;
+    width: 750px;
+    text-transform: uppercase;
 }
 
 .parrafoHero {
     width: 60%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: #5F5F5F;
-    margin-top: 10px;
-    width: 700px;
+    color: black;
+    width: 750px;
 }
 
 .buttonHero {
@@ -39,15 +39,15 @@
     justify-content: center;
     width: 200px;
     height: 60px;
-    background-color: #4A3BD4;
+    background: #6456e4;
     border-radius: 15px;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: white;
     margin-top: 20px;
 
     &:hover {
-        background-color: #6e5ff1;
+        background: #7e70fa;
         color: white;
     }
 }

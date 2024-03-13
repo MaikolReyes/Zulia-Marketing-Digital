@@ -42,7 +42,7 @@ export const Footer = () => {
             </div >
 
             <div className='containerCopyright' >
-                <p className='textCopyright'>© 2023 Copyright Zulia Marketing Digital</p>
+                <p className='textCopyright'>© 2024 Copyright Zulia Marketing Digital</p>
             </div>
 
         </>
