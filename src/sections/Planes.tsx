@@ -3,7 +3,7 @@ export const Planes = () => {
     return (
         <>
             <div data-aos='fade-up'>
-                <h2 className="titlePlanes" id="precios">Nuestros Servicios</h2>
+                <h2 className="titlePlanes" id="precios">Nuestros Servicios:</h2>
             </div>
 
             <div id="carouselExampleIndicators" className="carousel slide mt-5">

@@ -3,16 +3,8 @@
         font-size: 16px;
     }
 
-    .navbar {
-        height: 60px;
-    }
-
     .logo {
         width: 150px;
-    }
-
-    .heroPrincipal {
-        margin-top: 60px;
     }
 
     .titleHero {
@@ -27,16 +19,21 @@
     }
 
     .buttonHero {
-        margin-top: 0px;
+        margin-top: 30px;
         width: 150px;
         height: 50px;
         font-size: 16px;
     }
 
+    .containerServices {
+        width: 90%;
+        gap: 50px;
+    }
+
     .titleServices {
         font-size: 48px;
         margin-top: 150px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .titleService {
@@ -45,7 +42,6 @@
 
     .parrafoServices {
         font-size: 14px;
-        width: 100%;
     }
 
     .icono {
@@ -55,10 +51,6 @@
     .containerAbout {
         margin-top: 100px;
         justify-items: center;
-    }
-
-    .imagenAbout {
-        width: 90%;
     }
 
     .parrafoAbout {
@@ -82,14 +74,29 @@
     }
 
     .titlePlanes {
-        font-size: 36px;
-        margin-top: 150px;
+        font-size: 48px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .textDesarrollo {
+        margin-bottom: 30px;
+    }
+
+    .textPublicidad {
+        margin-bottom: 30px;
+        margin-top: 80px;
+    }
+
+    .containerPlanes {
+        gap: 80px;
     }
 
     .planes {
-        width: 320px;
-        height: 550px;
+        width: 300px;
+        height: 300px;
     }
+
 
     .card-title {
         font-size: 20px;

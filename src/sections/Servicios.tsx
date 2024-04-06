@@ -10,7 +10,7 @@ export const Servicios = () => {
 
                 <div className="services card">
 
-                    <p className="icon-image" >
+                    <p >
                         <i className="fa-solid fa-code icono"></i>
                     </p>
                     <div className="containerTextServices" >
@@ -23,7 +23,7 @@ export const Servicios = () => {
                 </div>
 
                 <div className="services card">
-                    <p className="icon-image">
+                    <p>
                         <i className="icon fa-solid fa-globe icono"></i>
                     </p>
 
@@ -38,7 +38,7 @@ export const Servicios = () => {
                 </div>
 
                 <div className="services card">
-                    <p className="icon-image">
+                    <p>
                         <i className="fa-regular fa-envelope icono"></i>
                     </p>
 

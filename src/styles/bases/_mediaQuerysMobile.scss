@@ -1,35 +1,53 @@
 @media screen and (max-width:568px) {
 
     .containerHero {
-        grid-template-columns: 2fr 0fr;
+        grid-template-columns: 1fr;
     }
 
+    .heroPrincipal {
+        position: absolute;
+    }
 
+    .buttonHero {
+        margin-top: 20px;
+    }
 
     .containerHeroText {
         z-index: 1;
     }
 
-    .containerServices {
-        display: flex;
-        flex-direction: column;
-    }
+
 
     .titleHero {
-        margin-top: 150px;
+        margin-top: 120px;
         text-align: center;
+        background-color: rgb(255, 255, 255, 0.90);
+        border-radius: 10px;
     }
 
     .parrafoHero {
         margin-top: 0px;
+        background-color: rgb(255, 255, 255, 0.90);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .titleServices {
+        margin-top: 100px;
+    }
+
+    .containerServices {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
     }
 
     .services {
         text-align: center;
     }
 
-    .iconImage {
-        margin: auto;
+    .icono {
+        margin-top: 50px;
     }
 
     .containerAbout {
@@ -37,10 +55,25 @@
         flex-direction: column;
     }
 
+    .parrafoAbout {
+        width: 80%;
+    }
+
+    .textDesarrollo {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
     .containerPlanes {
         display: grid;
         grid-template-rows: 1fr;
     }
+
+    .planes {
+        width: 200px;
+        height: 200px;
+    }
+
 
     .checkList {
         padding-left: 0.5rem;
@@ -54,8 +87,17 @@
         width: 25%;
     }
 
+    .content {
+        margin-top: 50px;
+        width: 80vw;
+    }
+
+    // .contact-form form p {
+    //     padding: 0.5em;
+    // }
+
     .contact-wrapper>* {
-        padding: 0px;
+        padding: 5px;
     }
 
     .containerInput {
@@ -87,5 +129,3 @@
         padding-left: 1rem;
     }
 }
-
-@media screen {}
