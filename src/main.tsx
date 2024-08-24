@@ -1,18 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Navbar, Footer } from './layout'
-import { Principal, QuienesSomos, Servicios, Contacto, Planes } from './sections'
 import './styles/style.scss'
+import { App } from './App'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Navbar />
-    <Principal />
-    <Servicios />
-    <QuienesSomos />
-    <Planes />
-    {/* <Projects /> */}
-    <Contacto />
+    <App />
     <Footer />
   </React.StrictMode>,
 )

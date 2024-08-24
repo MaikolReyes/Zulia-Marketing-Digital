@@ -8,22 +8,9 @@
     margin-bottom: 50px;
 }
 
-
-.content {
-    width: 50vw;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding: 3em;
-    background: #6d5efc;
-    border-radius: 20px;
-}
-
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr;
 }
 
 .contact-wrapper>* {
@@ -79,28 +66,3 @@
     transition: background-color 1s ease-out;
 }
 
-.contact-info {
-    text-align: center;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.location {
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    height: 100px;
-    width: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.iconForm {
-    font-size: 30px;
-    color: #5448c7;
-    margin-bottom: 10px;
-}

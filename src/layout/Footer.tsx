@@ -1,4 +1,4 @@
-import logo from '../img/logo-zulia.webp'
+import logo from '../assets/img/logo-zulia.webp'
 
 export const Footer = () => {
 
@@ -20,12 +20,13 @@ export const Footer = () => {
 
                 <img src={logo} alt="Logo de la empresa Zulia" className='logoFooter' />
 
+                {/* 
                 <div className="footer-link">
                     <a href="#servicios" className="footer-item">Servicios</a>
                     <a href="#nosotros" className="footer-item">Nosotros</a>
                     <a href="#precios" className="footer-item">Precios</a>
                     <a href="#contacto" className="footer-item">Contacto</a>
-                </div>
+                </div> */}
 
                 <div className='containerIconRedes'>
                     <a href='https://www.facebook.com/profile.php?id=61550461065145' target='_blank' aria-label='Ingresar a facebook' className='icon-redes'>
