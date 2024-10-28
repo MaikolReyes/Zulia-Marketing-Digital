@@ -9,7 +9,7 @@ interface itemAbout {
 export const itemsAbout: itemAbout[] = [
     {
         id: 1,
-icon: 'fa-solid fa-chart-line text-customViolet text-6xl mb-3',
+        icon: 'fa-solid fa-chart-line text-customViolet text-6xl mb-3',
         title: 'Nuestra Mision',
         description: 'Nuestra misión es ayudar a las empresas a desbloquear todo su potencial en línea. Creemos en el poder de la IA para automatizar y optimizar procesos, brindando a nuestros clientes una ventaja competitiva sin precedentes.',
     },

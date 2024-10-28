@@ -1,3 +1,3 @@
-export * from './itemsAbout'
-export * from './itemsServices'
-export * from './itemServicesOptions'
+export * from './Navbar'
+export * from './Footer'
+export * from './Principal'
