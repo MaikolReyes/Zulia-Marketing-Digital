@@ -1,0 +1,15 @@
+.Hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+}
+
+.Hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hero__button {
+    display: flex;
+}

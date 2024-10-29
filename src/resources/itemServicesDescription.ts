@@ -1,4 +1,4 @@
-export const itemsServices = [
+export const itemsServicesDescription = [
     {
         id: 1,
         icon: 'fa-solid fa-code text-4xl text-customViolet mt-12',

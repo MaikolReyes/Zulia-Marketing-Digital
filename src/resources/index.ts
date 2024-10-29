@@ -1,5 +1,5 @@
 export * from './itemsAbout'
-export * from './itemsServices'
-export * from './itemServicesOptions'
+export * from './itemServicesDescription'
+export * from './itemServicesPricing'
 export * from './navItems'
 
