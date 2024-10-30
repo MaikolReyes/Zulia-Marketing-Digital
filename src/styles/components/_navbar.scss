@@ -1,8 +1,15 @@
 .navbar {
-    background: white;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     height: 60px;
     width: 100vw;
-    z-index: 10;
+    z-index: 50;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.logo {
+    width: 40px;
 }

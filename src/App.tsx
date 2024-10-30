@@ -1,5 +1,5 @@
-import { Footer, Form, Navbar } from "./components"
 import { Hero, About, ServicesDescription, ServicesPricing } from "./layout"
+import { Footer, Form, Navbar } from "./components"
 
 export const App = () => {
 

@@ -1,15 +1,36 @@
-.Hero {
+.hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: stretch;
 }
 
-.Hero__content {
+.hero__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.Hero__button {
+.hero__text {
+    color: $primary-color;
+    font-family: $font-principal;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero__button {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: white;
+    height: 56px;
+    width: 240px;
+    margin: 12px;
+    font-size: 20px;
+    border-radius: 15px;
+
+    &:hover {
+        background: rgb(139 92 246);
+        color: white;
+    }
 }
