@@ -1,0 +1,38 @@
+.title__service__description {
+    @extend %titles;
+}
+
+.container__service__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin: auto auto 100px auto;
+    gap: 50px;
+}
+
+.card__service__description {
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    border-color: $primary-color;
+    width: 90%;
+}
+
+#icon-services-description {
+    font-size: 30px;
+    margin: 50px;
+    color: $primary-color;
+}
+
+.card__service__title__description {
+    font-size: 32px;
+    font-family: $font-principal;
+    color: $primary-color;
+    font-weight: bold;
+}
+
+.card__service__subtitle_description {
+    font-family: $font-secondary;
+    font-size: 16px;
+    margin: 16px;
+}

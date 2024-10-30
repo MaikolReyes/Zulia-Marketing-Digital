@@ -1,0 +1,20 @@
+.title__services__pricing {
+    @extend %titles
+}
+
+.services__pricing__subtitle {
+    font-family: $font-secondary;
+    text-align: center;
+    font-size: 36px;
+    color: $primary-color;
+    font-weight: 500;
+}
+
+.container__card__services__pricing {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    margin: 15px;
+}

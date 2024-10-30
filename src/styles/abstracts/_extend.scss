@@ -1,0 +1,15 @@
+%titles {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-family: $font-principal;
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+%subtitle-services-pricing {
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+}

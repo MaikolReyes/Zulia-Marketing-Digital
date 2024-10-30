@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    background-color: white;
     justify-content: space-between;
     position: fixed;
     height: 60px;
@@ -8,8 +9,15 @@
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
 
+.container-fluid {
+    align-items: flex-start;
+}
 
 .logo {
-    width: 40px;
+    width: 150px;
 }
