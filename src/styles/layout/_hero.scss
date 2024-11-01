@@ -2,12 +2,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: stretch;
+    margin-top: 60px;
 }
 
 .hero__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
 }
 
 .hero__text {
@@ -17,15 +20,20 @@
     font-weight: bold;
 }
 
+.hero__description {
+    font-family: $font-secondary;
+    color: black;
+}
+
 .hero__button {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $primary-color;
+    font-family: $font-secondary;
     color: white;
-    height: 56px;
-    width: 240px;
-    margin: 12px;
+    height: 50px;
+    width: 50%;
     font-size: 20px;
     border-radius: 15px;
 
