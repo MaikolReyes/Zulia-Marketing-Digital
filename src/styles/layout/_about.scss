@@ -1,0 +1,27 @@
+.container__about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 100px auto auto auto;
+}
+
+.container__items__about {
+    text-align: center;
+    width: 60%;
+}
+
+.list__about {
+    list-style-type: none;
+}
+
+.text__about {
+    font-family: $font-principal;
+    color: $primary-color;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paragraph__about {
+    font-family: $font-secondary;
+    font-size: 16px;
+}

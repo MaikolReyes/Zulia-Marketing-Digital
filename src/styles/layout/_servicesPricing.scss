@@ -4,17 +4,51 @@
 
 .services__pricing__subtitle {
     font-family: $font-secondary;
+    color: $primary-color;
     text-align: center;
     font-size: 36px;
-    color: $primary-color;
-    font-weight: 500;
 }
 
 .container__card__services__pricing {
     display: flex;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
     gap: 40px;
     margin: 15px;
+}
+
+
+.card__services__pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.card__title__pricing {
+    font-family: $font-principal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card__button__pricing {
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: $font-secondary;
+    color: $primary-color;
+    font-weight: bold;
+    width: 40%;
+
+    &:hover {
+        color: white;
+        background-color: #a686ff;
+    }
+
 }
