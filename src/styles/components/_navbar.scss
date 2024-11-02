@@ -16,6 +16,7 @@
     height: 50px;
 }
 
+
 .logo {
     max-height: 50px;
     /* Ajusta este valor al tamaño deseado */
@@ -24,10 +25,19 @@
     /* Esto mantendrá la proporción */
 }
 
+.navbar-nav {
+    align-items: center;
+    margin-right: 50px;
+    gap: 20px;
+
+    * {
+        transition: all .35s ease;
+    }
+}
+
 .navbar-collapse {
     display: flex;
     justify-content: end;
-
 }
 
 .nav-link {

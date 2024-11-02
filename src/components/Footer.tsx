@@ -4,17 +4,16 @@ export const Footer = () => {
 
     return (
         <>
-            <div className='newsLetter' data-aos="fade-up">
-                <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" >
-                    <p className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</p>
-                    <div className='containerInput'>
-                        <input className='inputFormNewsLetter' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
-                        <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
-                        <input type="hidden" name="_next" value="https://zuliamarketingdigital.com/" />
-                        <input type="hidden" name="_captcha" value='false' />
-                    </div>
-                </form >
-            </div >
+
+            <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" data-aos="fade-up">
+                <p className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</p>
+                <div className='containerInput'>
+                    <input className='inputFormNewsLetter' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
+                    <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
+                    <input type="hidden" name="_next" value="https://zuliamarketingdigital.com/" />
+                    <input type="hidden" name="_captcha" value='false' />
+                </div>
+            </form >
 
             <div className='containerFooter' data-aos="fade-up">
 

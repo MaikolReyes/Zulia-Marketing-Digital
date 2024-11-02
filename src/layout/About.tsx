@@ -5,9 +5,9 @@ export const About = () => {
 
     return (
 
-        <section className='container__about mt-52 justify-items-center' id='nosotros' data-aos="fade-up" data-aos-duration='1000'>
+        <section className='container__about' id='nosotros' data-aos="fade-up" data-aos-duration='1000'>
 
-            <img src={AboutPhoto} alt="Imagen sobre nosotros" loading="lazy" className='imagenAbout' />
+            <img src={AboutPhoto} alt="Imagen sobre nosotros" loading="lazy" className='imagen__about' />
 
             <ul className='container__items__about' data-aos="zoom-in-up">
                 {itemsAbout.map(({ id, icon, title, description }) => (

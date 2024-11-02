@@ -10,7 +10,7 @@ export const Form = () => {
     // }
 
     return (
-        <div className="content mx-auto xl:mt-40 xl:mb-40 xl:w-2/3 2xl:mt-48 2xl:mb-48 2xl:w-2/5 bg-customViolet rounded-3xl p-16 shadow-2xl" id="contacto" data-aos="fade-right" data-aos-duration="2000" >
+        <div className="content__form" id="contacto" data-aos="fade-right" data-aos-duration="2000" >
             <div className="contact-wrapper">
                 <div className="contact-form">
                     <h3 className="titleContactanos">Contacto</h3>

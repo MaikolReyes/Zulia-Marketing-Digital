@@ -1,14 +1,11 @@
 .formNewsLetter {
-    display: flex;
-}
-
-.newsLetter {
     width: 100%;
     color: white;
     background: #6d5efc;
     display: flex;
     justify-content: center;
     padding: 2em;
+    display: flex;
 }
 
 .textNewsLetter {
@@ -25,7 +22,7 @@
 
 .inputFormNewsLetter {
     height: 40px;
-    width: 400px;
+    width: 60%;
     border-radius: 10px;
     border: 1px solid #8d8d8d;
     text-align: center;

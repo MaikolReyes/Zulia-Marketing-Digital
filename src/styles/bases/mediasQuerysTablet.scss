@@ -1,0 +1,55 @@
+@media screen and (max-width:640px) {
+
+    .navbar {
+        height: 80px;
+
+        .container-fluid {
+            justify-content: space-around;
+            padding: 0;
+        }
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .hero {
+        margin-top: 80px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .hero__content {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+    }
+
+    .container__service__description {
+        grid-template-columns: 1fr;
+    }
+
+    .container__about {
+        grid-template-columns: 1fr;
+    }
+
+    .container__card__services__pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__form {
+        width: 80%;
+    }
+
+    .titleContactanos {
+        margin: 20px;
+    }
+
+    .contact-wrapper>* {
+        padding: 0;
+    }
+}
