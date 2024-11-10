@@ -1,4 +1,4 @@
-import { Hero, About, ServicesDescription, ServicesPricing } from "./layout"
+import { Hero, About, ServicesDescription, ServicesPricing, Portfolio } from "./layout"
 import { Footer, Form, Navbar } from "./components"
 
 export const App = () => {
@@ -8,8 +8,9 @@ export const App = () => {
             <Navbar />
             <Hero />
             <ServicesDescription />
-            <About />
             <ServicesPricing />
+            <Portfolio />
+            <About />
             <Form />
             <Footer />
         </>

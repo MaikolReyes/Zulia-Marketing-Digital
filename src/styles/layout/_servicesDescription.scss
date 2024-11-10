@@ -5,22 +5,21 @@
 .container__service__description {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 80vw;
-    margin: auto auto 100px auto;
+    width: 70%;
+    margin: auto;
     gap: 50px;
 }
 
 .card__service__description {
     text-align: center;
-    margin: auto;
     border-radius: 10px;
     border-color: $primary-color;
-    width: 90%;
+    width: 100%;
 }
 
 #icon-services-description {
-    font-size: 30px;
-    margin: 50px;
+    font-size: 38px;
+    margin: 20px;
     color: $primary-color;
 }
 
@@ -33,6 +32,6 @@
 
 .card__service__subtitle_description {
     font-family: $font-secondary;
-    font-size: 16px;
+    font-size: 18px;
     margin: 16px;
 }

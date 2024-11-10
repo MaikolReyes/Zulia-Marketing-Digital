@@ -18,11 +18,15 @@
     font-family: $font-principal;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
+    font-size: 32px;
 }
 
 .hero__description {
     font-family: $font-secondary;
     color: black;
+    text-align: center;
+    font-size: 20px;
 }
 
 .hero__button {
@@ -33,7 +37,7 @@
     font-family: $font-secondary;
     color: white;
     height: 50px;
-    width: 50%;
+    width: 40%;
     font-size: 20px;
     border-radius: 15px;
 
