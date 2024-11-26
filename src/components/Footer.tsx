@@ -8,7 +8,7 @@ export const Footer = () => {
             <form className='formNewsLetter' action="https://formsubmit.co/zuliamarketingdigital@gmail.com" method="POST" data-aos="fade-up">
                 <p className='textNewsLetter'>¡Newsletter para no perderte nuestras ofertas!</p>
                 <div className='containerInput'>
-                    <input className='inputFormNewsLetter' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
+                    <input className='inputFormNewsLetter text-center' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
                     <button aria-label="News letter" type='submit' className='buttonEnviar btn bg-light'><i className="fa-regular fa-paper-plane"></i></button>
                     <input type="hidden" name="_next" value="https://zuliamarketingdigital.com/" />
                     <input type="hidden" name="_captcha" value='false' />
@@ -19,8 +19,8 @@ export const Footer = () => {
 
                 <img src={logo} alt="Logo de la empresa Zulia" className='logoFooter' />
 
-                {/* 
-                <div className="footer-link">
+
+                {/* <div className="footer-link">
                     <a href="#servicios" className="footer-item">Servicios</a>
                     <a href="#nosotros" className="footer-item">Nosotros</a>
                     <a href="#precios" className="footer-item">Precios</a>

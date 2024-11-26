@@ -22,17 +22,13 @@
 
 .inputFormNewsLetter {
     height: 40px;
-    width: 60%;
     border-radius: 10px;
     border: 1px solid #8d8d8d;
-    text-align: center;
-
 }
 
 .buttonEnviar {
     font-size: 20px;
     color: grey;
-    margin-left: 5px;
     height: 40px;
 
     &:hover {
@@ -77,17 +73,17 @@
     margin-bottom: 40px;
 }
 
-.footer-item {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #5F5F5F;
+// .footer-item {
+//     text-decoration: none;
+//     font-family: 'Raleway', sans-serif;
+//     font-size: 18px;
+//     font-weight: 600;
+//     color: #5448c7;
 
-    &:hover {
-        color: #5448c7;
-    }
-}
+//     &:hover {
+//         color: #5F5F5F;
+//     }
+// }
 
 .containerCopyright {
     height: 50px;

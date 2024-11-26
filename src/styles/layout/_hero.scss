@@ -13,8 +13,12 @@
     margin: auto;
 }
 
+.hero__foto {
+    width: 100%;
+}
+
 .hero__text {
-    color: $primary-color;
+    color: #5846f7;
     font-family: $font-principal;
     text-transform: uppercase;
     font-weight: bold;
@@ -33,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $primary-color;
+    background-color: #5846f7;
     font-family: $font-secondary;
     color: white;
     height: 50px;

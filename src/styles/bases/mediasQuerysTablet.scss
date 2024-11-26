@@ -24,8 +24,19 @@
 
     .hero__content {
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.6);
         border-radius: 10px;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .hero__description {
+        font-size: 18px;
+    }
+
+    .title__service__description {
+        font-size: 36px;
+        margin-bottom: 24px;
     }
 
     .container__service__description {
@@ -34,11 +45,25 @@
 
     .container__about {
         grid-template-columns: 1fr;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .container__items__about {
+        width: 80%;
     }
 
     .container__card__services__pricing {
         flex-direction: column;
         align-items: center;
+    }
+
+    .container-projects {
+        flex-direction: column;
+    }
+
+    .container-text-projects {
+        width: 80%;
     }
 
     .content__form {
