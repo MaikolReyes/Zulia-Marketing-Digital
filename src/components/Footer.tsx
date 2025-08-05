@@ -1,4 +1,4 @@
-import logo from '../assets/img/logo-zulia.webp'
+import logo from '/img/logo-zulia.webp';
 
 export const Footer = () => {
 

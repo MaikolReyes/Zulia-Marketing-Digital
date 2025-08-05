@@ -1,5 +1,4 @@
-
-import logo from '../assets/img/logo-zulia.webp'
+import logo from '/img/logo-zulia.webp';
 import { navItems } from '../resources'
 
 export const Navbar = () => {

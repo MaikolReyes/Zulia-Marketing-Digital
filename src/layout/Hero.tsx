@@ -1,4 +1,4 @@
-import hero from '../assets/img/hero-principal.webp'
+import hero from '/img/hero-principal.webp';
 
 export const Hero = () => {
 

@@ -1,4 +1,4 @@
-import AboutPhoto from '../assets/img/imagen-nosotros.webp';
+import AboutPhoto from '/img/imagen-nosotros.webp';
 import { itemsAbout } from '../resources';
 
 export const About = () => {

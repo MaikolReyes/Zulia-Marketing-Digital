@@ -5,16 +5,15 @@
 .container__service__description {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 70%;
     margin: auto;
-    gap: 50px;
 }
 
 .card__service__description {
     text-align: center;
     border-radius: 10px;
     border-color: $primary-color;
-    width: 100%;
+    margin: auto;
+    width: 500px;
 }
 
 #icon-services-description {
