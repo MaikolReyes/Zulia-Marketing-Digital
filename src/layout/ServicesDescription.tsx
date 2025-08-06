@@ -4,7 +4,7 @@ export const ServicesDescription = () => {
     return (
         <>
             <section data-aos="fade-up" id="servicios">
-                <h2 className='title__service__description'>¿Qué Ofrecemos?</h2>
+                <h2 className='title__service__description text-red-500'>¿Qué Ofrecemos?</h2>
 
                 <div className="container__service__description" data-aos="fade-up" data-aos-duration="500">
                     {itemsServicesDescription.map(({ id, icon, title, description }) => (

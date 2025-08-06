@@ -3,17 +3,9 @@
     background-color: white;
     justify-content: space-between;
     position: fixed;
-    height: 60px;
-    width: 100vw;
     z-index: 50;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     top: 0;
-}
-
-
-.container-fluid {
-    align-items: flex-start;
-    height: 50px;
 }
 
 
@@ -23,25 +15,4 @@
     height: auto;
     width: auto;
     /* Esto mantendrá la proporción */
-}
-
-.navbar-nav {
-    align-items: center;
-    margin-right: 50px;
-    gap: 20px;
-
-    * {
-        transition: all .35s ease;
-    }
-}
-
-.navbar-collapse {
-    display: flex;
-    justify-content: end;
-}
-
-.nav-link {
-    color: #5846f7;
-    font-family: $font-principal;
-    font-size: 20px;
 }
