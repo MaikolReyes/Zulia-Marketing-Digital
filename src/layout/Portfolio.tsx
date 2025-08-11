@@ -6,7 +6,7 @@ export const Portfolio = () => {
         <>
             <div className="container-projects-it">
 
-                <h2 className="title__portfolio">Portfolio</h2>
+                <h2 className="font-myCustomFont font-semibold text-5xl flex justify-center text-customViolet mt-10 mb-16">Portfolio</h2>
                 {
                     projectsIT.map(({ id, name, img, description, deploy }) => (
                         <div key={id} className="container-projects animate__animated animate__backInLeft">
@@ -26,7 +26,7 @@ export const Portfolio = () => {
                 }
             </div>
 
-            <h3 className="title__portfolio">Planes de Marketing</h3>
+            <h3 className="font-myCustomFont font-semibold text-5xl flex justify-center text-customViolet mt-10 mb-16">Planes de Marketing</h3>
             <div className="container-card-projects-MKT ">
                 {
                     projectsMKT.map(({ id, name, img, description, deploy }) => (

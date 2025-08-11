@@ -3,14 +3,12 @@
 
 // Variables and Extends
 @import './abstracts/variables';
-@import './abstracts/extend';
 // Components Importants
 @import './components/navbar';
 @import './components/form';
 @import './components/footer';
 // Layout Website
 @import './layout/about';
-@import './layout/servicesDescription';
 @import './layout/servicesPricing';
 @import './layout/_portfolio';
 
