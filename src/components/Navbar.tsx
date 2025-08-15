@@ -4,10 +4,10 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg w-full h-16">
+            <nav className="navbar navbar-expand-lg flex w-full h-16 bg-white justify-between fixed z-50 top-0 shadow-xl">
 
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#inicio"><img src={logo} alt="Logo-empresa" className='logo' /></a>
+                    <a className="navbar-brand" href="#inicio"><img src={logo} alt="Logo-empresa" className='max-h-20' /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

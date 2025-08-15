@@ -15,13 +15,13 @@ export const itemsAbout: itemAbout[] = [
     },
     {
         id: 2,
-        icon: 'fa-solid fa-shop text-customViolet text-6xl mb-3',
+        icon: 'fa-solid fa-shop text-customViolet',
         title: 'Nuestra Vision',
         description: 'Nuestro enfoque único y visionario combina la creatividad humana con la precisión y eficiencia de la IA. Trabajamos en estrecha colaboración contigo para comprender tus objetivos y necesidades comerciales.',
     },
     {
         id: 3,
-        icon: 'fa-solid fa-lightbulb text-customViolet text-6xl mb-3',
+        icon: 'fa-solid fa-lightbulb text-customViolet',
         title: 'Nuestro Diferencial',
         description: 'Nuestro diferencial radica en la combinación de creatividad humana, experiencia en IA y enfoque centrado en el cliente. Estamos listos para llevar tu estrategia de marketing digital al siguiente nivel y ayudarte a destacar en el mercado.',
     },

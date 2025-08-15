@@ -7,20 +7,24 @@ export const About = () => {
         <>
             <h3 className="font-myCustomFont font-semibold text-5xl flex justify-center text-customViolet mt-36 mb-10">Sobre Nosotros</h3>
 
-            <div className='container__about' id='nosotros' data-aos="fade-up" data-aos-duration='1000'>
-                <img src={AboutPhoto} alt="Imagen sobre nosotros" loading="lazy" className='imagen__about' />
+            <div className='grid grid-cols-2 justify-center gap-4' id='nosotros' data-aos="fade-up" data-aos-duration='1000'>
 
-                <ul className='container__items__about' data-aos="zoom-in-up">
+                <div className='flex justify-end'>
+                    <img src={AboutPhoto} alt="Imagen sobre nosotros" loading="lazy" className='' />
+                </div>
+
+                <div className='flex flex-col items-center text-center w-2/4'>
                     {itemsAbout.map(({ id, icon, title, description }) => (
-                        <li className='list__about' key={id}>
-                            <i className={icon} id='icon-about'></i>
-                            <h4 className='text__about'>{title}</h4>
-                            <p className='paragraph__about'>{description}</p>
-                        </li>
+                        <div key={id}>
+                            <i className={`text-4xl m-7 text-customViolet ${icon}`} ></i>
+                            <h4 className='font-myCustomFont text-customViolet text-3xl font-bold'>{title}</h4>
+                            <p className='paragraph__about font-myCustomFontSecondary text-lg'>{description}</p>
+                        </div>
                     ))}
-                </ul>
 
+                </div>
             </div>
+
         </>
     )
 }
