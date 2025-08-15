@@ -2,7 +2,7 @@ export const projectsIT = [
     {
         id: 1,
         name: "Franquicias360",
-        description: "Landing page para una empresa que se dedica a ofrecer cadenas de franquicias. Esta desarrollada con codigo de programacion en Javascript para que sea totalmente personalizada.",
+        description: "Landing page para una empresa que se dedica a ofrecer cadenas de franquicias.",
         img: "/img/Franquicias360.png",
         deploy: "https://franquicias360.netlify.app"
     },

@@ -12,7 +12,7 @@ export const Form = () => {
 
     return (
 
-        <div className="content__form bg-customViolet w-2/5 mt-20 rounded-2xl shadow-xl" id="contacto" data-aos="fade-right" data-aos-duration="2000" >
+        <div className="content__form bg-customViolet tablet:w-3/6 mt-20 rounded-2xl shadow-xl" id="contacto" data-aos="fade-right" data-aos-duration="2000" >
             <div className="contact-wrapper">
                 <div className="contact-form">
                     <h3 className="titleContactanos text-center font-navbarFont text-white text-4xl mb-12 font-bold">Contacto</h3>

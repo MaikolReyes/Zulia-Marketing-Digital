@@ -14,7 +14,7 @@ export const Portfolio = () => {
                                 <img className="w-4/5" src={img} alt={name} />
                             </div>
 
-                            <div className="flex flex-col justify-center items-center rounded-lg w-2/4 h-72 bg-indigo-600 text-center gap-2">
+                            <div className="flex flex-col justify-center items-center rounded-lg w-3/4 h-72 bg-indigo-600 text-center gap-2">
                                 <h3 className="text-2xl font-myCustomFont font-bold rounded-lg">{name}</h3>
                                 <p className="text-base font-myCustomFontSecondary w-8/12">{description}</p>
 
@@ -36,11 +36,11 @@ export const Portfolio = () => {
                     projectsMKT.map(({ id, name, img, description, deploy }) => (
                         <div data-aos="zoom-in-up" key={id} className="card bg-customViolet w-96 text-white text-center">
                             <a target="_blank" href={deploy}>
-                                <img src={img} className="card-img-top" alt="..." />
+                                <img src={img} className="card-img-top" alt="project marketing" />
                             </a>
                             <div className="card-body">
-                                <h3 className="card-title">{name}</h3>
-                                <p className="text-lg">{description}</p>
+                                <h3 className="card-title text-2xl">{name}</h3>
+                                <p className="text-base">{description}</p>
                             </div>
                         </div>
                     ))
