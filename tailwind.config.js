@@ -12,8 +12,9 @@ export default {
       },
       screens: {
         'mobile': '480px',
-        'tablet': '640px',
-        'laptop': '1024px',
+        'tablet': '768px',
+        'laptop': '1280px',
+        'large-desktop': '1536px'
       }
     },
   },

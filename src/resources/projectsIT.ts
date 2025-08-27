@@ -11,7 +11,7 @@ export const projectsIT = [
         name: "Website Maikol Reyes",
         description: "Landing page para un particular que se dedica a ofrecer servicios de programacion y computacion.",
         img: "/img/website-maikolreyes.png",
-        deploy: "https://maikolreyes.netlify.app"
+        deploy: "https://maikol.netlify.app/"
     },
     {
         id: 3,
@@ -25,6 +25,6 @@ export const projectsIT = [
         name: "FinanceSignal",
         description: "Sitio web de noticias financieras. Desarrollado con React y typescript.",
         img: "/img/finance.png",
-        deploy: "https://tiendasettenis.com.ar/"
+        deploy: "https://www.financessignal.com/"
     }
 ];

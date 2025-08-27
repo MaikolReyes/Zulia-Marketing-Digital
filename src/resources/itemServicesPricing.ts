@@ -24,7 +24,7 @@ export const itemsServicesMkt = [
         id: 1,
         icon: 'fa-brands fa-meta',
         title: 'Publicidad en Meta Ads',
-        src: './pdf/Publicidad-Meta-Ads.pdf'
+        src: './pdf/Meta-Ads.pdf'
     },
     {
         id: 2,

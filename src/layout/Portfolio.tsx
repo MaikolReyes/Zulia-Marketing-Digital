@@ -9,12 +9,12 @@ export const Portfolio = () => {
                 <h2 className="font-myCustomFont font-semibold text-5xl flex justify-center text-customViolet mt-10">Portfolio</h2>
                 {
                     projectsIT.map(({ id, name, img, description, deploy }) => (
-                        <div key={id} data-aos="zoom-in-up" className="flex justify-center text-white mb-10 w-2/4 ">
+                        <div key={id} data-aos="zoom-in-up" className="grid grid-cols-1 laptop:grid-cols-2 justify-center text-white mb-10 w-2/4 ">
                             <div className="flex justify-center items-center bg-customViolet w-96 h-72 rounded-lg">
                                 <img className="w-4/5" src={img} alt={name} />
                             </div>
 
-                            <div className="flex flex-col justify-center items-center rounded-lg w-3/4 h-72 bg-indigo-600 text-center gap-2">
+                            <div className="flex flex-col justify-center items-center rounded-lg tablet:w-3/4 large-desktop:w-2/5 h-72 bg-indigo-600 text-center gap-2">
                                 <h3 className="text-2xl font-myCustomFont font-bold rounded-lg">{name}</h3>
                                 <p className="text-base font-myCustomFontSecondary w-8/12">{description}</p>
 
@@ -31,7 +31,7 @@ export const Portfolio = () => {
             </div>
 
             <h3 className="font-myCustomFont font-semibold text-5xl flex justify-center text-customViolet mt-10 mb-16">Planes de Marketing</h3>
-            <div className="flex justify-center gap-10 m-4">
+            <div className="grid grid-cols-1 laptop:grid-cols-2 justify-center gap-10 m-4">
                 {
                     projectsMKT.map(({ id, name, img, description, deploy }) => (
                         <div data-aos="zoom-in-up" key={id} className="card bg-customViolet w-96 text-white text-center">

@@ -9,7 +9,7 @@ export const ServicesPricing = () => {
 
                 <h3 className="text-in-subtitles">Desarrollo Web</h3>
 
-                <div className="flex justify-center gap-10 m-4">
+                <div className="flex flex-col laptop:flex-row justify-center gap-10 m-4">
                     {itemsServicesIT.map(({ id, icon, title, src }) => (
                         <div className="card card flex justify-center items-center m-4 w-72 h-72 gap-4 bg-customViolet text-white rounded-xl shadow" data-aos="zoom-in-up" key={id}>
                             <i className={`text-4xl ${icon}`}></i>
@@ -21,7 +21,7 @@ export const ServicesPricing = () => {
 
                 <h3 className="text-in-subtitles mt-5">Publicidad en Redes</h3>
 
-                <div className="flex justify-center gap-10 m-4">
+                <div className="flex flex-col laptop:flex-row justify-center gap-10 m-4">
                     {itemsServicesMkt.map(({ id, icon, title, src }) => (
                         <div className="card flex justify-center items-center m-4 w-72 h-72 gap-4 bg-customViolet text-white rounded-xl shadow" data-aos="zoom-in-up" key={id}>
                             <i className={`text-4xl ${icon}`}></i>

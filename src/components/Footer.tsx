@@ -9,7 +9,7 @@ export const Footer = () => {
                 <p className='textNewsLetter text-base font-navbarFont font-bold'>¡Newsletter para no perderte nuestras ofertas!</p>
                 <div className='flex items-center gap-1'>
 
-                    <input className='rounded text-center text-black h-9 font-myCustomFontSecondary' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
+                    <input className='rounded p-2 text-black h-9 font-myCustomFontSecondary' required type="email" placeholder='Ingresar Email' name='Email' id='email-newsLetter' />
 
                     <button aria-label="News letter" type='submit' className='btn bg-white h-9 hover:text-customViolet'><i className="fa-regular fa-paper-plane"></i></button>
                     <input type="hidden" name="_next" value="https://zuliamarketingdigital.com/" />
